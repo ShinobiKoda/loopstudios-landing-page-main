@@ -121,7 +121,7 @@ main {
   font-family: "Alata", sans-serif;
 }
 
-.leadership-section {
+.leadership-section-mobile {
   margin: 3rem 0;
   width: 100%;
   display: flex;
@@ -296,6 +296,10 @@ footer {
   display: none;
 }
 
+.leadership-section-desktop {
+  display: none;
+}
+
 @media screen and (min-width: 850px) {
   .mobile-nav {
     display: none;
@@ -341,6 +345,22 @@ footer {
     padding: 0 1rem;
     width: 100%;
     margin: 0 auto;
+  }
+
+  .leadership-section-mobile {
+    display: none;
+  }
+
+  .leadership-section-desktop {
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    margin: 3rem auto;
+    align-items: center;
+  }
+
+  .leadership-section-desktop img {
+    width: 30rem;
   }
 
   .creation-section {
