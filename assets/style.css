@@ -356,7 +356,20 @@ footer {
     width: 100%;
     max-width: 1024px;
     margin: 3rem auto;
-    align-items: center;
+    align-items: flex-end;
+  }
+
+  .box-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .leadership-box {
+    display: block;
+    width: 8rem;
+    height: 8rem;
+    background-color: blue;
   }
 
   .leadership-section-desktop img {
