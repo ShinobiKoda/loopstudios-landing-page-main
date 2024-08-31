@@ -369,7 +369,7 @@ footer {
     display: block;
     width: 8rem;
     height: 8rem;
-    background-color: blue;
+    background-color: rgb(202, 128, 202);
   }
 
   .leadership-section-desktop img {
