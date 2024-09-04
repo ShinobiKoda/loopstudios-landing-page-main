@@ -215,6 +215,7 @@ main {
 .seeall-btn:hover {
   background-color: black;
   color: white;
+  cursor: pointer;
 }
 
 footer {
@@ -356,7 +357,8 @@ footer {
     width: 100%;
     max-width: 1024px;
     margin: 3rem auto;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: flex-end;
   }
 
   .box-container {
@@ -373,7 +375,7 @@ footer {
   }
 
   .leadership-section-desktop img {
-    width: 30rem;
+    width: 35rem;
   }
 
   .creation-section {
